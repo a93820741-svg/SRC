@@ -1,0 +1,34 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: Arial, sans-serif;
+  background-color: #b0b0fa;
+
+}
+#home{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+input{
+  outline: none;
+  border: none;
+  padding: 10px 20px;
+  width: 200px;
+}
+button{
+  padding: 10px 20px;
+  cursor: pointer;
+  border: none;
+  background: #4b46f6;
+  color: #fff;
+  border-radius: 6px;
+}
